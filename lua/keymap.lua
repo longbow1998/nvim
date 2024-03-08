@@ -13,3 +13,12 @@ keymap.set('n', 'j', [[v:count?'j':'gj']], { noremap = true, expr = true })
 keymap.set('n', 'k', [[v:count?'k':'gk']], { noremap = true, expr = true })
 
 keymap.set('n', '<leader>nh', ':nohl<CR>', { desc = 'Clear search highlights' })
+
+keymap.set('n', 'H', '_')
+keymap.set('n', 'L', '$')
+keymap.set('n', 'U', '<c-r>')
+
+keymap.set('i', 'jk', '<esc>')
+keymap.set('i', '<c-j>', '<left>')
+keymap.set('i', '<c-k>', '<right>')
+
