@@ -22,3 +22,5 @@ keymap.set('i', 'jk', '<esc>')
 keymap.set('i', '<c-j>', '<left>')
 keymap.set('i', '<c-k>', '<right>')
 
+keymap.set('v', 'H', '_')
+keymap.set('v', 'L', '$')
