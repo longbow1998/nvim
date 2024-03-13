@@ -28,3 +28,11 @@ keymap.set('n', '<leader>l', '<c-w>l')
 keymap.set('n', 'gh', 'gt')
 keymap.set('n', 'gl', 'gT')
 
+-- 格式化
+keymap.set(
+  'n',
+  '<leader>f',
+  '<cmd>lua vim.lsp.buf.format()<CR>',
+  { noremap = true, silent = true }
+)
+
