@@ -22,5 +22,9 @@ keymap.set('i', 'jk', '<esc>')
 keymap.set('i', '<c-j>', '<left>')
 keymap.set('i', '<c-k>', '<right>')
 
-keymap.set('v', 'H', '_')
-keymap.set('v', 'L', '$')
+keymap.set('n', '<leader>h', '<c-w>h')
+keymap.set('n', '<leader>l', '<c-w>l')
+
+keymap.set('n', 'gh', 'gt')
+keymap.set('n', 'gl', 'gT')
+
