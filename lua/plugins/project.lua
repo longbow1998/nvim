@@ -2,8 +2,8 @@ return {
   'coffebar/neovim-project',
   opts = {
     projects = { -- define project roots
-      '~/workspace/*',
       '~/.config/*',
+      '~/project/kute/*',
     },
   },
   init = function()
