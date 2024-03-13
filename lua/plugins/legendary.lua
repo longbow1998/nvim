@@ -43,7 +43,7 @@ return {
       {
         description = 'select a project from your recent history',
         mode = { 'n' },
-        '<leader>t',
+        '<leader>D',
         '<CMD>Telescope neovim-project history<CR>',
       },
     }
